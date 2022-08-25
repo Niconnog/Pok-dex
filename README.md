@@ -1,2 +1,2 @@
-# Pok-dex
+# Pokédex
 Criação de uma Pokédex
