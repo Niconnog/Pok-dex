@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+
+    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image//x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/pokebola.png" alt="pokébola" class="pokebola" />
+        <h1 class="titulo">Pokédex Gen 1</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar" />
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Bulbasaur</h2>
+                    <p class="vida">HP 45</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/bulbasaur.png" alt="Bulbasaur" class="imagem-pokemon" />
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Bulbasaur pode ser visto cochilando sob luz solar intensa. Há uma
+                        semente em suas costas. Ao absorver os raios de sol,sua semente cresce
+                        progressivamente.    
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Ivysaur</h2>
+                    <p class="vida">HP 60</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/Ivysaur.png" alt="Ivysaur" class="imagem-pokemon" />
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Há um broto nas costas desse Pokémon. Para suportar seu peso, as
+                        pernas e o tronco de Ivysaur ficam grossos e fortes. Se começar a passar mais tempo
+                        deitado sob a luz solar, é um sinal de que o broto florescerá em uma flor grande
+                        em breve.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Venusaur</h2>
+                    <p class="vida">HP 80</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/Venusaur.png" alt="Venusaur" class="imagem-pokemon" />
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Há uma flor grande nas costas do Venusaur. Diz-se que a flor adquire
+                        cores vivas se receber muita nutrição e luz solar. O aroma da flow acalma as
+                        emoções das pessoas.    
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Charmander</h2>
+                    <p class="vida">HP 40</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/Charmander.png" alt="Charmander" class="imagem-pokemon" />
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">A chama que queima na ponta da cauda é uma indicação de suas emoções.
+                        A chama tremula quando Charmander está se divertindo. Se o Pokémon se enfurecer,
+                        a chama queima ferozmente.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Charmeleon</h2>
+                    <p class="vida">HP 60</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/Charmeleon.png" alt="Charmeleon" class="imagem-pokemon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Charmeleon impiedosamente destrói seus inimigos usando suas garras
+                        afiadas. Se encontrar um inimigo forte, ele se torna agressivo. Nesse estado
+                        exitado, a chama na ponta de sua cauda brilha com uma cor branca azulada.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 80</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/charizard.png" alt="Charizard" class="imagem-pokemon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Charizard voa pelo céu em busca de oponentes poderosos. Ele respira
+                        um calor tão grande que derrete qualquer coisa. No entanto, nunca dá um sopro
+                        ardente a qualquer inimigo mais fraco que ele.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-7">
+                <div class="informacoes">
+                    <h2 class="nome">Squirtle</h2>
+                    <p class="vida">HP 45</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/Squirtle.png" alt="Squirtle" class="imagem-pokemon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">A concha de Squirtle não é apenas usada para proteção. A forma
+                        arredondada das conchas e as ranhuras na superfície ajudam a minimizar a
+                        resistência na água, permitindo que esse Pokémon nade em alta velocidade.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-8">
+                <div class="informacoes">
+                    <h2 class="nome">Wartotle</h2>
+                    <p class="vida">HP 60</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/Wartotle.png" alt="Wartotle" class="imagem-pokemon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Sua cauda é grande e coberta por um pêlo rico e grosso. A cauda
+                        torna-se cada vez mais profunda na cor à medida que Wartotle envelhece. Os
+                        arranhões em sua concha são uma evidência da dureza deste Pokémon como um
+                        lutador.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-9">
+                <div class="informacoes">
+                    <h2 class="nome">Bastoise</h2>
+                    <p class="vida">HP 80</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/Blastoise.png" alt="Blastoise" class="imagem-pokemon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Blastoise tem bicos de água que se projetam de sua concha. Os
+                        bicos de água são muito precisos. Eles podem disparar balas de água com precisão
+                        suficiente para atingir latas vazias a uma distância de mais de 60 metros.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-10">
+                <div class="informacoes">
+                    <h2 class="nome">Caterpie</h2>
+                    <p class="vida">HP 45</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/Caterpie.png" alt="Caterpie" class="imagem-pokemon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Caterpie tem um apetite voraz. Ele pode devorar folhas maiores que
+                        seu corpo diante do seus olhos. De sua antena, este Pokémon libera um odor
+                        terrivelmente forte.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-11">
+                <div class="informacoes">
+                    <h2 class="nome">Metapod</h2>
+                    <p class="vida">HP 50</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/Metapod.png" alt="Metapod" class="imagem-pokemon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">A concha que cobre o corpo deste Pokémon é tão dura quanto uma laje
+                        de ferro. Metapod não se move muito. Ele fica parado porque esta preparando suas
+                        entranhas suaves para a evolução dentro da casca dura.
+
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-15">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 60</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/pikachu.png" alt="Pikachu" class="imagem-pokemon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">É de sua natureza armazenar eletrecidade. Ele se sente estressado
+                        de vez em quando se não conseguir descarregar completamente sua eletrecidade.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-150">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 110</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/mewtwo.png" alt="Mewtwo" class="imagem-pokemon" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Mewtwo é um Pokémon que foi criado por manipulação genética. No entanto,
+                        embora o poder científico dos humanos tenha criado o corpo desse Pokémon, eles não
+                        conseguiram dotar Mewtwo de um coração compassivo. Como suas habilidades de batalha
+                        foram elevadas ao nível máximo, ele pensa apenas em derrotar seus inimigos,
+                        independente de quem seja.
+                    </p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar" />
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+
+</body>
+
+</html>
